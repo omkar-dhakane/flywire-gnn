@@ -10,6 +10,8 @@ pip install torch_geometric
 pip install git+https://github.com/omkar-dhakane/flywire-gnn.git   # or: pip install -e .
 ```
 
+Tested with Python 3.13, torch 2.14.0+cpu, torch_geometric 2.8.0.post1, pyarrow 22.0, numpy 2.3.1. Older `torch>=2.0` / `torch_geometric>=2.4` should work; the benchmark numbers above are from the tested versions.
+
 ## Quickstart (the whole thing)
 
 ```python

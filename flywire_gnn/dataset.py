@@ -367,7 +367,7 @@ class FlyWireFAFB:
         )
 
         if self._cache_path.exists():
-            self._cache = torch.load(self._cache_path, weights_only=False)
+            self._cache = torch.load(self._cache_path, weights_only=True)
         else:
             if not download:
                 raise FileNotFoundError(

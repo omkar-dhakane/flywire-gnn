@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.npy binary
+*.feather binary
+*.parquet binary

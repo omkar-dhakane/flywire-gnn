@@ -1,10 +1,28 @@
-data/
-*.feather
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 *.egg-info/
+
+# data + build
+data/
+*.feather
 dist/
 build/
+coverage/
 .ipynb_checkpoints/
+
+# os/ide junk
+.DS_Store
 *.log
+.vscode/
+.idea/

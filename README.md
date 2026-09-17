@@ -38,6 +38,7 @@ Everything is cached in `~/.cache/flywire_gnn` — subsequent loads are instant.
 Data sources (all public, **no auth needed**):
 - Connectivity: FlyWire Whole-brain Connectome Connectivity Data v783 — [Zenodo, CC-BY-4.0](https://doi.org/10.5281/zenodo.10676866)
 - Annotation: [Schlegel et al. 2024](https://doi.org/10.1038/s41586-024-07686-5), Supplementary Data 5
+- Packaged copies (parquet, pair-level): [huggingface.co/datasets/SLOP011/flywire-fafb-connectome](https://huggingface.co/datasets/SLOP011/flywire-fafb-connectome)
 
 ## Leaderboard — node classification on `super_class`
 

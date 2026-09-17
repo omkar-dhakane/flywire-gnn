@@ -8,13 +8,13 @@ tags:
   - gnn
   - benchmark
 task_categories:
-  - graph-machine-learning
+  - graph-ml
 pretty_name: FlyWire FAFB v783 Connectome (GNN-ready)
 ---
 
 # FlyWire FAFB v783 Connectome — GNN-ready package
 
-The complete proofread wiring diagram of an adult female *Drosophila melanogaster* brain — **139,255 neurons and their synaptic connections** — repackaged as a ready-to-train graph dataset. Companion to the [`flywire-gnn`](https://github.com/) Python package.
+The complete proofread wiring diagram of an adult female *Drosophila melanogaster* brain — **139,255 neurons and their synaptic connections** — repackaged as a ready-to-train graph dataset. Companion to the [`flywire-gnn`](https://github.com/omkar-dhakane/flywire-gnn) Python package.
 
 This is a **dataset packaging** of two public, no-auth sources:
 

@@ -7,7 +7,7 @@
 ```bash
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install torch_geometric
-pip install git+https://github.com/omkar-dhakane/flywire-gnn.git   # or: pip install -e .
+pip install flywire-gnn   # from PyPI; or: pip install git+https://github.com/omkar-dhakane/flywire-gnn.git for the dev version
 ```
 
 Tested with Python 3.13, torch 2.14.0+cpu, torch_geometric 2.8.0.post1, pyarrow 22.0, numpy 2.3.1. Older `torch>=2.0` / `torch_geometric>=2.4` should work; the benchmark numbers above are from the tested versions.
